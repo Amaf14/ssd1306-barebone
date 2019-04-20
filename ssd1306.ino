@@ -3,7 +3,7 @@
 #include <string.h>
 
 uint8_t *vram;
-int8_t vccstate = SSD1306_SWITCHCAPVCC;
+int8_t vccstate = SSD1306_SWITCHCAPVCC; //3.3v psu
 
 #define cs 10
 #define dc 9
